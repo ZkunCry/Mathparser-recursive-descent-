@@ -1,0 +1,16 @@
+C:\Users\Eugene\source\repos\MathparserCalc\MathparserCalc\bin\Debug\net5.0\MathparserCalc.exe
+C:\Users\Eugene\source\repos\MathparserCalc\MathparserCalc\bin\Debug\net5.0\MathparserCalc.deps.json
+C:\Users\Eugene\source\repos\MathparserCalc\MathparserCalc\bin\Debug\net5.0\MathparserCalc.runtimeconfig.json
+C:\Users\Eugene\source\repos\MathparserCalc\MathparserCalc\bin\Debug\net5.0\MathparserCalc.runtimeconfig.dev.json
+C:\Users\Eugene\source\repos\MathparserCalc\MathparserCalc\bin\Debug\net5.0\MathparserCalc.dll
+C:\Users\Eugene\source\repos\MathparserCalc\MathparserCalc\bin\Debug\net5.0\ref\MathparserCalc.dll
+C:\Users\Eugene\source\repos\MathparserCalc\MathparserCalc\bin\Debug\net5.0\MathparserCalc.pdb
+C:\Users\Eugene\source\repos\MathparserCalc\MathparserCalc\obj\Debug\net5.0\MathparserCalc.csproj.AssemblyReference.cache
+C:\Users\Eugene\source\repos\MathparserCalc\MathparserCalc\obj\Debug\net5.0\MathparserCalc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eugene\source\repos\MathparserCalc\MathparserCalc\obj\Debug\net5.0\MathparserCalc.AssemblyInfoInputs.cache
+C:\Users\Eugene\source\repos\MathparserCalc\MathparserCalc\obj\Debug\net5.0\MathparserCalc.AssemblyInfo.cs
+C:\Users\Eugene\source\repos\MathparserCalc\MathparserCalc\obj\Debug\net5.0\MathparserCalc.csproj.CoreCompileInputs.cache
+C:\Users\Eugene\source\repos\MathparserCalc\MathparserCalc\obj\Debug\net5.0\MathparserCalc.dll
+C:\Users\Eugene\source\repos\MathparserCalc\MathparserCalc\obj\Debug\net5.0\ref\MathparserCalc.dll
+C:\Users\Eugene\source\repos\MathparserCalc\MathparserCalc\obj\Debug\net5.0\MathparserCalc.pdb
+C:\Users\Eugene\source\repos\MathparserCalc\MathparserCalc\obj\Debug\net5.0\MathparserCalc.genruntimeconfig.cache
