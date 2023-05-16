@@ -3,13 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+    /*Исходная грамматика
+        
+       S->E
+       E->E+T | E-T | T
+       T->T*M | T/M | M
+       M->(E) | C | F(E)
+       F->sin | cos | sqrt
+     */
 namespace MathparserCalc
 {
     class MathParser
     {
 
-        private string source = "5*2";
+        private string source = "5*(cos(60)+cos(60))";
         private int symbol, indexsrc = 0;
         private void GetSymbol()
         {
@@ -72,9 +79,33 @@ namespace MathparserCalc
                     GetSymbol();
                     x = -MethodM();
                 }
-                else
-                    if (symbol >= '0' && symbol <= '9')
+                else if (symbol >= '0' && symbol <= '9')
                     x = MethodC();
+                else if (symbol =='c' || symbol == 's')
+                {
+                   string namefunc = "";
+
+                    
+                    while (symbol != '(')
+                    {
+                        namefunc += (char)symbol;
+                        GetSymbol();
+                       
+                    }
+                       
+                    switch(namefunc)
+                    {
+                        case "cos":
+                            x = Math.Cos(MethodM());
+                            break;
+                        case "sin":
+                            x = Math.Sin(MethodM());
+                            break;
+                        case "sqrt":
+                            x = Math.Sqrt(MethodM());
+                            break;
+                    }
+                }
             }
             return x;
         }
@@ -91,7 +122,6 @@ namespace MathparserCalc
                     x += ',';
                     GetSymbol();
                 }
-
 
             }
             return double.Parse(x);
